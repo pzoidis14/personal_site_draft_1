@@ -4,5 +4,21 @@
  * having to figure out which file they belong to!
  */
 export {default as Navbar} from './navbar'
-export {default as UserHome} from './user-home'
-export {Login, Signup} from './auth-form'
+export {UserHome, Login, Signup} from './users'
+export {LandingHome, LandingBlurb} from './landing'
+export {AboutHome, AboutBlurb} from './about'
+export {
+  ProfessionalHome,
+  CoderBlurb,
+  CoderHome,
+  CoderProjects,
+  CoderResume,
+  CoderSkills,
+  ConsultantBlurb,
+  ConsultantHome,
+  ConsultantProjects,
+  ConsultantResume,
+  ConsultantSkills
+} from './professional'
+export {BlogHome, BlogBlurb, BlogSingle, BlogsList, BlogsListCard} from './blog'
+export {ContactHome, ContactBlurb} from './contact'

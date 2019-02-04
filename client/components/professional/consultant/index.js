@@ -1,0 +1,5 @@
+export {default as ConsultantBlurb} from './consultantBlurb'
+export {default as ConsultantHome} from './consultantHome'
+export {default as ConsultantProjects} from './consultantProjects'
+export {default as ConsultantResume} from './consultantResume'
+export {default as ConsultantSkills} from './consultantSkills'

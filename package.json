@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
+  "name": "tyler.zoidis.com",
   "version": "1.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Personal website for Tyler Zoidis's works and musings",
   "engines": {
     "node": ">= 7.0.0"
   },

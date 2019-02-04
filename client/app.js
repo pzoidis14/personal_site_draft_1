@@ -1,15 +1,15 @@
 import React from 'react'
-
-import {Navbar} from './components'
+import {withRouter, Route, Switch} from 'react-router-dom'
+import {LandingHome} from './components'
 import Routes from './routes'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <Switch>
+      <Route exact path="/" component={LandingHome} />
       <Routes />
-    </div>
+    </Switch>
   )
 }
 
-export default App
+export default withRouter(App)
